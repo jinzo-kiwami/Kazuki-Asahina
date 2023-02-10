@@ -1,0 +1,164 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ナビゲーション */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-size: 34px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ナビゲーションメニューのMyProfileの部分 */
+.home {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+/* メニューの余白 */
+.menu > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* メイン画像 */
+.mainpic {
+  width: 100%;
+}
+
+/* 文字 */
+h1 {
+  font-size: 34px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+ul {
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* about */
+.about {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+.circle {
+  margin: 0px;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.content {
+  margin: 0px;
+  padding: 0px 50px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Works */
+@media screen and (min-width:768px){
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  margin: 30px auto 60px auto;
+}
+.item {
+ margin: 0px 10px; 
+ align-items: center;
+}
+.item > img {
+  width: 200px;
+  height: 150px;
+}
+.item > p {
+  font-size: 18px;
+  max-width: 178px;
+  text-align: center;
+  margin-left: 10px;
+}
+}
+
+footer > p {
+  text-align: center;
+  padding: 20px auto 20px auto;
+}
+
+/* ========
+スマホ用 
+==========*/
+@media screen and (max-width:767px){
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px auto 20px auto;
+    margin: 10px auto;
+  }
+  /* about */
+  .about {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 10px auto;
+    max-width: 960px;
+  }
+  .circle {
+    max-width: 142px;
+    max-height: 142px;
+    align-items: center;
+  }
+
+  .name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    margin: 10px;
+  }
+
+  /* Works */
+  .works {
+    margin: 30px 30px;
+    align-items: center;
+  }
+  .item > img {
+    width: 100%;
+  }
+  .item > p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  footer > p {
+    margin-top: 50px;
+  }
+  
+}
+
+
