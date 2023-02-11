@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 /* ナビゲーション */
@@ -15,8 +16,6 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   color: #000;
-  font-size: 34px;
-  font-family: "Noto Sans JP", sans-serif;
 }
 
 /* ナビゲーションメニューのMyProfileの部分 */
@@ -40,19 +39,16 @@ nav a {
 /* 文字 */
 h1 {
   font-size: 34px;
-  font-family: "Noto Sans JP", sans-serif;
   text-align: center;
   position: relative;
 }
 
 p {
   font-size: 18px;
-  font-family: "Noto Sans JP", sans-serif;
 }
 
 ul {
   font-size: 18px;
-  font-family: "Noto Sans JP", sans-serif;
 }
 
 /* about */
